@@ -1,0 +1,13 @@
+data_dir: data
+dataset_id: odedgolden/movielens-1m-dataset
+
+model:
+  emb_size: 128
+  hidden_size: 256
+
+train:
+  epochs: 3
+  batch_size: 512
+  lr: 0.001
+
+out_model: gru4rec_1m.pth

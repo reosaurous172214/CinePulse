@@ -1,0 +1,16 @@
+
+data_dir: data
+# kagglehub dataset id to download if data missing (example for MovieLens 1M)
+dataset_id: odedgolden/movielens-1m-dataset
+
+model:
+  emb_size: 128
+  hidden_size: 256
+
+train:
+  epochs: 10
+  batch_size: 512
+  lr: 0.001
+
+out_model: gru4rec.pth
+
